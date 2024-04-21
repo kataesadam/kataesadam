@@ -1,35 +1,103 @@
-<div class="p-10">
-  <div class="text-center">
-    <h1 class="mb-5 text-5xl font-bold">Helyszínek</h1>
+<!--<div class="p-10">-->
+<!--  <div class="text-center">-->
+<!--    <h1 class="mb-5 text-5xl font-bold">Helyszínek</h1>-->
+<!--  </div>-->
+<!--  <div class="flex flex-col w-full lg:flex-row p-10">-->
+<!--&lt;!&ndash;    <div style="background-image: url(assets/church.png);" class="flex-grow card h-80 "></div>&ndash;&gt;-->
+<!--    <div class="flex-grow card h-32">-->
+<!--&lt;!&ndash;      <img ngSrc="assets/church.png" alt="church" class="w-full object-contain min-h-20" height="1024" width="1024">&ndash;&gt;-->
+<!--    </div>-->
+<!--    <div class="flex-grow card">-->
+<!--      <div class="text-left">-->
+<!--          <h1 class="mb-5 text-4xl font-bold">Templom</h1>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <p>Cserhátszentiváni Kisboldogasszony Templom</p>-->
+<!--        <p>Cserhátszentiván, Kossuth u. 28, 3066</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--    <div class="flex flex-col w-full lg:flex-row p-10">-->
+<!--  &lt;!&ndash;    <div style="background-image: url(assets/church.png);" class="flex-grow card h-80 "></div>&ndash;&gt;-->
+<!--      <div class="flex-grow card">-->
+<!--        <div class="text-left">-->
+<!--            <h1 class="mb-5 text-4xl font-bold">Lakodalom</h1>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--          <p>Angyalkert Tábor Cserhátszentiván</p>-->
+<!--          <p>Cserhátszentiván, Kossuth u. 66, 3066</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="flex-grow card h-32">-->
+<!--&lt;!&ndash;         <img src="assets/party.png" alt="church" class="w-full object-contain min-h-20">&ndash;&gt;-->
+<!--      </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="flex flex-col gap-4">
+  <!-- Flexbox 1: text | image -->
+  <div class="flex items-center gap-4">
+    <!--    <div class="flex-1 text-center">-->
+    <!--        <p>Cserhátszentiváni Kisboldogasszony Templom</p>-->
+    <!--        <p>Cserhátszentiván, Kossuth u. 28, 3066</p>-->
+    <!--    </div>-->
+    <div class="flex-1 ml-40 text-left">
+      <h1 class="text-4xl font-bold">Templom</h1>
+      <hr class="mt-2 border-t-2 border-gray-300 max-w-96" />
+      <h2 class="mt-2 font-bold">Helyszín:</h2>
+      <p>Cserhátszentiváni Kisboldogasszony Templom</p>
+      <a
+        href="https://maps.app.goo.gl/WzPcggiZeVirirEj9"
+        target="_blank"
+        class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+        >Cserhátszentiván, Kossuth u. 28, 3066</a
+      >
+      <h2 class="mt-2 font-bold">Információk:</h2>
+      <p>
+        Amennyiben lehetséges, kérjük, hogy a templom környékének korlátozott
+        parkolási lehetőségei miatt, aki csak tudja, gyalogosan tegye meg az
+        utat a táborból.
+      </p>
+    </div>
+    <div class="flex-1">
+      <img src="assets/church.png" alt="church" />
+    </div>
   </div>
-  <div class="flex flex-col w-full lg:flex-row p-10">
-<!--    <div style="background-image: url(assets/church.png);" class="flex-grow card h-80 "></div>-->
-    <div class="flex-grow card h-32">
-<!--      <img ngSrc="assets/church.png" alt="church" class="w-full object-contain min-h-20" height="1024" width="1024">-->
+  <!-- Flexbox 2: image | text -->
+  <div class="flex items-center gap-4">
+    <div class="flex-1">
+      <img src="assets/party.png" alt="party" />
     </div>
-    <div class="flex-grow card">
-      <div class="text-left">
-          <h1 class="mb-5 text-4xl font-bold">Templom</h1>
-      </div>
-      <div>
-        <p>Cserhátszentiváni Kisboldogasszony Templom</p>
-        <p>Cserhátszentiván, Kossuth u. 28, 3066</p>
-      </div>
+    <!--    <div class="flex-1 text-center">-->
+    <!--      <h1 class="mb-5 text-4xl font-bold">Lakodalom</h1>-->
+    <!--      <p>Angyalkert Tábor Cserhátszentiván</p>-->
+    <!--      <p>Cserhátszentiván, Kossuth u. 66, 3066</p>-->
+    <!--      <p>parkolás todo</p>-->
+    <!--    </div>-->
+    <div class="flex-1 mr-40 text-left">
+      <h1 class="text-4xl font-bold">Lakodalom</h1>
+      <hr class="mt-2 border-t-2 border-gray-300 max-w-96" />
+      <h2 class="mt-2 font-bold">Helyszín:</h2>
+      <p>Angyalkert Tábor Cserhátszentiván</p>
+      <a
+        href="https://maps.app.goo.gl/S2YVDNttWipCBb888"
+        target="_blank"
+        class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+        >Cserhátszentiván, Kossuth u. 66, 3066</a
+      >
+      <h2 class="mt-2 font-bold">Parkolás:</h2>
+      <p>
+        A tábor melletti zöld területen lehet parkolni, nagyjából 30 autónak jut
+        hely. Ha tudjátok, itt parkoljatok, de legyetek szívesek figyelmesen
+        megtenni!
+      </p>
+      <h2 class="mt-2 font-bold">Szállás:</h2>
+      <p>
+        A táborban 8 darab, 5 személyes faházikó áll rendelkezésre. Amennyiben
+        igényt tartanál a szállásra kérlek valamilyen formában jelezd nekünk.
+        Kérjük, ne feledkezzetek meg arról, hogy saját ágyneműt és lepedőt
+        hozzatok magatokkal.
+      </p>
     </div>
   </div>
-    <div class="flex flex-col w-full lg:flex-row p-10">
-  <!--    <div style="background-image: url(assets/church.png);" class="flex-grow card h-80 "></div>-->
-      <div class="flex-grow card">
-        <div class="text-left">
-            <h1 class="mb-5 text-4xl font-bold">Lakodalom</h1>
-        </div>
-        <div>
-          <p>Angyalkert Tábor Cserhátszentiván</p>
-          <p>Cserhátszentiván, Kossuth u. 66, 3066</p>
-        </div>
-      </div>
-      <div class="flex-grow card h-32">
-<!--         <img src="assets/party.png" alt="church" class="w-full object-contain min-h-20">-->
-      </div>
-    </div>
 </div>
