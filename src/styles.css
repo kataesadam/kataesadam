@@ -6,12 +6,12 @@
 @layer base {
   @font-face {
     font-family: "Corbel";
-    src: url("assets/Corbel.ttf");
+    src: url("fonts/Corbel.ttf");
   }
 
   @font-face {
     font-family: "MonthGlade";
-    src: url("assets/MonthGlade.otf");
+    src: url("fonts/MonthGlade.otf");
   }
   html {
     font-family: "Corbel", serif;
