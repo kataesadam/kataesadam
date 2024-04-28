@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-      "./src/**/*.{html,ts}",
-    ],
+  content: ["./src/**/*.{html,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        corbel: ["Corbel", "sans-serif"],
+        monthGlade: ["MonthGlade", "sans-serif"],
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
-      themes: ["cupcake"],
-    },
-}
-
+    themes: ["cupcake"],
+  },
+};
