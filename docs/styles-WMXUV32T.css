@@ -311,7 +311,7 @@ html {
 }
 @font-face {
   font-family: MonthGlade;
-  src: url("./media/MonthGlade-F3OE4U4V.otf") format("opentype");
+  src: url("./media/monthGlade-F3OE4U4V.otf") format("opentype");
 }
 html {
   font-family: Corbel, serif;
