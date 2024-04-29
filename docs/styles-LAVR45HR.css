@@ -307,11 +307,11 @@ html {
 }
 @font-face {
   font-family: Corbel;
-  src: url(/assets/fonts/corbel.ttf);
+  src: url("mediaorbel-YRANTLXO.ttf");
 }
 @font-face {
   font-family: MonthGlade;
-  src: url(/assets/fonts/monthGlade.otf);
+  src: url("mediaonthGlade-F3OE4U4V.otf");
 }
 html {
   font-family: Corbel, serif;
