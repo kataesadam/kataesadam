@@ -683,9 +683,6 @@ html {
 .mb-5 {
   margin-bottom: 1.25rem;
 }
-.mt-10 {
-  margin-top: 2.5rem;
-}
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -701,8 +698,8 @@ html {
 .grid {
   display: grid;
 }
-.min-h-\[400px\] {
-  min-height: 400px;
+.min-h-\[250px\] {
+  min-height: 250px;
 }
 .w-auto {
   width: auto;
@@ -739,6 +736,9 @@ html {
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -804,14 +804,14 @@ html {
 .p-10 {
   padding: 2.5rem;
 }
+.p-12 {
+  padding: 3rem;
+}
 .p-4 {
   padding: 1rem;
 }
 .p-5 {
   padding: 1.25rem;
-}
-.p-8 {
-  padding: 2rem;
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -829,6 +829,9 @@ html {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
 .text-left {
   text-align: left;
 }
@@ -841,9 +844,9 @@ html {
 .font-monthGlade {
   font-family: MonthGlade, sans-serif;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -887,28 +890,42 @@ html {
   text-decoration-line: underline;
 }
 @media (min-width: 1024px) {
-  .lg\:mt-0 {
-    margin-top: 0;
+  .lg\:mt-24 {
+    margin-top: 6rem;
   }
   .lg\:max-w-\[800px\] {
     max-width: 800px;
   }
-  .lg\:items-center {
-    align-items: center;
+  .lg\:flex-col {
+    flex-direction: column;
   }
   .lg\:p-10 {
     padding: 2.5rem;
+  }
+  .lg\:p-20 {
+    padding: 5rem;
+  }
+  .lg\:pl-0 {
+    padding-left: 0;
+  }
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
   }
-  .lg\:text-6xl {
-    font-size: 3.75rem;
+  .lg\:text-9xl {
+    font-size: 8rem;
     line-height: 1;
   }
   .lg\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .lg\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
@@ -918,6 +935,10 @@ html {
   }
 }
 @media (prefers-color-scheme: dark) {
+  .dark\:text-amber-100 {
+    --tw-text-opacity: 1;
+    color: rgb(254 243 199 / var(--tw-text-opacity));
+  }
   .dark\:text-blue-500 {
     --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity));
