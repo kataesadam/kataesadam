@@ -307,11 +307,11 @@ html {
 }
 @font-face {
   font-family: Corbel;
-  src: url("mediaorbel-YRANTLXO.ttf") format("truetype");
+  src: url("./media/corbel-YRANTLXO.ttf") format("truetype");
 }
 @font-face {
   font-family: MonthGlade;
-  src: url("mediaonthGlade-F3OE4U4V.otf") format("opentype");
+  src: url("./media/monthGlade-F3OE4U4V.otf") format("opentype");
 }
 html {
   font-family: Corbel, serif;
@@ -724,6 +724,9 @@ html {
 }
 .shrink-0 {
   flex-shrink: 0;
+}
+.break-after-column {
+  break-after: column;
 }
 .grid-flow-col {
   grid-auto-flow: column;
